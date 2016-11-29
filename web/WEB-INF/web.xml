@@ -6,7 +6,7 @@
 
     <servlet>
         <servlet-name>loginServlet</servlet-name>
-        <servlet-class>com.faisal.MyServlet</servlet-class>
+        <servlet-class>com.faisal.BusinessLogic_Controller.MyServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
