@@ -21,7 +21,7 @@ public class MyServlet extends HttpServlet {
     private static Logger logger = Logger.getLogger(MyServlet.class.getName());
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        Scanner input = new Scanner(new File("C:\\Users\\Ronni\\IdeaProjects\\Technology1_startup_project\\web\\WEB-INF\\DAO\\user1.txt"));
+        Scanner input = new Scanner(new File("C:\\Users\\Ronni\\IdeaProjects\\Technology1_startup_project\\web\\WEB-INF\\DAO\\users.txt"));
         String word1 = "";
         String word2 = "";
         String word3 = "";
